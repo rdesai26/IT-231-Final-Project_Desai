@@ -1,0 +1,13 @@
+    <div class="subscribers">
+    <% subscribers.forEach(s => { %>
+      <p>
+        name: <%= s.name %>
+      <br>
+        email: <%= s.email %>
+      <br>
+        questions: <%= s.questionsComments %>
+      <br>
+        receive emails?  <%= s.receiveEmails %>
+      </p>
+    <% }); %>
+  </div>
